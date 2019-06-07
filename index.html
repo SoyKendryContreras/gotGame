@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Juego de Tronos / Juego de palabras</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="icons.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="description" content="Juego de tronos - el juego de palabras | SoyKendryContreras">
+	<link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+</head>
+<body id="body">
+	<div class="main">
+
+		<div class="popUp" id="popUp">
+			<div class="popUpContainer" id="popUpContainer">
+				<div>
+					<h2 class="popUpTitle" id="popUpTitle"></h2>
+					<h3 class="popUpMensaje" id="popUpMensaje"></h3>
+					<div><button class="next btn coloresBlue" id="next"></button></div>
+					<div><button class="back btn orange" id="back"></button></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="iniciar">
+			<h1 class="title">Juego de tronos / Juego de palabras</h1>
+			<div class="imgDestacada"><img src="img/02.png"></div>
+			<button class="btn big orange" id="got">¡Jugar Ahora!</button>
+		</div>
+		<div class="app" id="app">
+			<div class="imgContent" id="imgContent">
+				<img class="imagen" id="imagen" src="" alt="">
+			</div>
+			<h2 class="titleApp" id="titleApp"></h2>
+			<div class="divText" id="divText"></div>
+			<div class="textCompleto"><input  class="textComplete" id="textComplete" type="text" placeholder="¿palabra completa?"></div>
+
+			<div class="infoControls" id="infoControls">
+				<div class="controls">
+					<button class="btnPista btn orange" id="btnPista">Comprar Letras</button>
+					<button class="btnComprobar btn coloresBlue" id="btnComprobar">Comprobar</button>
+				</div>
+
+				<div class="infoDiv" id="infoDiv">
+					<div><span class="preguntasRestantes" id="preguntasRestantes"></span></div>
+					<span class="puntos" id="puntos">Puntos: <span class="puntosNum" id="puntosNum">0</span></span>
+				</div>
+			</div>
+		</div>
+		<a href="javascript:location.reload()" id="reinit" class="btn orange reinit">Reiniciar Juego</a>
+		<div class="redes">
+			<p>Compartir Juego</p>
+			<ul>
+				<li><a title="Compartir en facebook" href="https://www.facebook.com/sharer/sharer?u=https://soykendrycontreras.github.io/gotGame/" target="_blank"><span class="icon-facebook"></span></a></li>
+				<li><a title="Compartir en Twitter" href="https://twitter.com/intent/tweet?text=Juego de tronos | Juego de palabras - https://soykendrycontreras.github.io/gotGame/ - via @soykendrycont" target="_blank"><span class="icon-twitter"></span></a></li>
+			</ul>
+		</div>
+	</div>
+	<footer id="footer">
+		<div class="redes">
+			<p>¡Sigueme en redes sociales!</p>
+			<ul>
+				<li><a href="www.facebook.com/soykendryContreras" title="sigueme en facebook"><span class="icon-facebook"></span></a></li>
+				<li><a href="https://twitter.com/soykendrycont" title="sigueme en twitter"><span class="icon-twitter"></span></a></li>
+				<li><a href="mailto:kendryjesuscontreras@gmail.com" title="inbox"><span class="icon-mail2"></span></a></li>
+			</ul>
+			<p class="firma"><a href="https://soykendrycontreras.github.io">Kendry Contreras</a></p>
+		</div>
+	</footer>
+	<!-- CARGANDO JS-->
+	<script src="index.js"></script>
+</body>
+</html>
